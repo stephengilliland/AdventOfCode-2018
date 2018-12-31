@@ -14,7 +14,7 @@ ctr = 0
 
 notAtEnd = Trues
 
-while(ctr <= 15000000):
+while(ctr <= 10000000):
     currLetter = inpt[x]
     nextLetter = inpt[x+1]
     #print(currLetter)
