@@ -6,7 +6,7 @@ for x in range(1, 89398):
     currPower = d[x] + d[x+1] + d[x+2] + d[x+300] + d[x+301] + d[x+302] + d[x+600] + d[x+601] + d[x+602]
     if(currPower > bestPower):
         bestPower = currPower
-        locX = x%300 + 1
+        locX = x % 300 + 1
         locY = x // 300 + 1
 print('[', locX, ',', locY, ']')
 
