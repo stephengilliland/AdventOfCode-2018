@@ -16,7 +16,7 @@ threeFound = 0
 for x in range(count):
     line[x] = inputFile.readline().strip()
     currLine = line[x]
-    print(currLine)
+    #print(currLine)
     length = len(currLine)
 
     for i in range(length):
@@ -48,8 +48,8 @@ for x in range(count):
 
 twoCounter = twoCounter
 threeCounter = threeCounter
-print(twoCounter)
-print(threeCounter)
+#print(twoCounter)
+#print(threeCounter)
 answer = (twoCounter*threeCounter)
 
 print(answer)
