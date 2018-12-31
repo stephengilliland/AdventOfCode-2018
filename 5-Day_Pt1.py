@@ -12,23 +12,7 @@ deleting = True
 x = 0
 ctr = 0
 
-notAtEnd = True
-
-while(length >= x+1):
-    currLetter = inpt[x]
-    if((currLetter == 'A') or (currLetter == 'a')):
-        inpt.pop(x)
-        print("Popped: ", end =" ")
-        print(x)
-    else:
-        x += 1
-    length = len(inpt)
-    print(length)
-    print(x)
-    if(x >= length):
-        notAtEnd == False
-
-
+notAtEnd = Trues
 
 while(ctr <= 15000000):
     currLetter = inpt[x]
