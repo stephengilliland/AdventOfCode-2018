@@ -6,17 +6,12 @@ bestPower = 0
 locX = 0
 locY = 0
 x = 0
+hundreds = ''
 for y in range(1, 301):
     for x in range(1, 301):
         currPoint = (((x+10)*y)+SN)*(x+10)
-        while(currPoint > 999):
-            currPoint -= 1000
-        while((currPoint % 100) > 0):
-            currPoint -= 1
-        if(currPoint > 99):
-            currPoint //= 100
-        else:
-            currPoint = 0
+        currPoint //= 100
+        currPoint %= 10
         currPoint -= 5
         d.append(currPoint)
 print(len(d))
